@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <h1>Rally Cars</h1>
+    <div id="rallycar-list"></div>
+    <button id="btn-showdetails" class="showbtn">Show Details</button>
+    <button id="btn-showadd" class="showbtn">Add a Car</button>
+    <div id="forms">
+        <!-- <button id="btn-showdetails" class="showbtn">Show Details</button> -->
+        <div id="edit-rallycar" class="form hidden">
+            <span id="rallycar-id" class="hidden"></span>
+            <p>
+                <label for="txt-name">Name: </label>
+                <input id="txt-name">
+            </p>
+            <p>
+                <label for="txt-horsepower">Horsepower: </label>
+                <input id="txt-horsepower">
+            </p>
+            <p>
+                <label for="txt-weight">Weight: </label>
+                <input id="txt-weight">
+            </p>
+            <p>
+                <label for="txt-config">Config: </label>
+                <input id="txt-config">
+            </p>
+            <p id="msg"></p>
+            <button id="btn-edit-rallycar">Edit Rallycar</button>
+            <button id="btn-delete-rallycar">Delete Rallycar</button>
+        </div>
+        <!-- <button id="btn-showadd" class="showbtn">Add a Car</button> -->
+        <div id="add-rallycar" class="form hidden">
+            <p>
+                <label for="txt-add-name">Name: </label>
+                <input id="txt-add-name">
+            </p>
+            <p>
+                <label for="txt-add-horsepower">Horsepower: </label>
+                <input id="txt-add-horsepower">
+            </p>
+            <p>
+                <label for="txt-add-weight">Weight: </label>
+                <input id="txt-add-weight">
+            </p>
+            <p>
+                <label for="txt-add-config">Config: </label>
+                <input id="txt-add-config">
+            </p>
+            <p id="msg2"></p>
+            <button id="btn-add-rallycar">Add Rallycar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
